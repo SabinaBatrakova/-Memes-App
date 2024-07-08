@@ -5,13 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memes App</title>
+
+    <link rel="icon" href="" type="image/png" />
     <link rel="stylesheet" href="style/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
+    <section class="section-">
+        <div class="container">
+            <ul class="row">
+                <li class="col">
+                    <h2 class="col-title">Настройки:</h2>
 
+                    <p class="text">Мем</p>
+                    <div class="js-input-memes input-memes">
+                        <input type="text" placeholder="choose" class="js-input-chose input-chose" name="search">
 
+                        <button type="submit" class="btn btn-default">
+                            <img src="/photo/arrow.png" alt="arrow">
+                        </button>
+                        </span>
+                    </div>
+
+                    <p class="text-up">Текст сверху</p>
+                    <input class="js-input input" type="text">
+                    <p class="text-down">Текст снизу</p>
+                    <input class="js-input input" type="text">
+                </li>
+
+                <li class="col">
+                    <h2 class="col-title">Превью:</h2>
+                    <img srcset="" class="js-img">
+                </li>
+            </ul>
+        </div>
+    </section>
 
     <script src="js/model.js"></script>
     <script src="js/view.js"></script>

@@ -1,0 +1,82 @@
+body {
+    width: 100%;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 50px;
+    max-width: 900px;
+    border: 1px solid forestgreen;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+
+.col {
+    width: calc(30%-50px);
+    border: 1px solid rgb(139, 34, 134);
+}
+
+.col-title {
+    font-size: 35px;
+    line-height: 60.95px;
+    font-weight: 700px;
+    margin-bottom: 42px;
+}
+
+.text,
+.text-up,
+.text-down {
+    font-size: 25px;
+    line-height: 42.67px;
+    margin-bottom: 13px;
+}
+
+.input,
+.input-chose {
+    width: 393px;
+    height: 54px;
+    border-radius: 10px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.input-memes {
+    position: relative;
+    width: 393px;
+    height: 54px;
+    overflow: hidden;
+}
+
+.input-chose {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.input-chose:focus {
+    outline: none;
+}
+
+.btn-default {
+    position: absolute;
+    right: 15px;
+    width: 34px;
+    height: 34px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    align-items: center;
+}
+
+.btn.btn-default {
+    height: 100%;
+}
+
+.btn-default:hover {
+    opacity: 70%;
+}
