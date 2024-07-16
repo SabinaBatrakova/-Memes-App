@@ -15,31 +15,32 @@
 </head>
 
 <body>
-    <section class="section-">
+    <section class="section-settings">
         <div class="container">
             <ul class="row">
                 <li class="col">
                     <h2 class="col-title">Настройки:</h2>
 
                     <p class="text">Мем</p>
-                    <div class="js-input-memes input-memes">
-                        <input type="text" placeholder="choose" class="js-input-chose input-chose" name="search">
 
-                        <button type="submit" class="btn btn-default">
-                            <img src="/photo/arrow.png" alt="arrow">
-                        </button>
-                        </span>
-                    </div>
+                    <select class="js-input-chose-mem input-chose-mem"></select>
 
-                    <p class="text-up">Текст сверху</p>
-                    <input class="js-input input" type="text">
-                    <p class="text-down">Текст снизу</p>
-                    <input class="js-input input" type="text">
+
+                    <p class="text">Текст сверху</p>
+                    <input type="text" class="js-text-up-input  text-up">
+
+                    <p class="text">Текст снизу</p>
+                    <input type="text" class="js-text-down-input text-down">
+
                 </li>
 
                 <li class="col">
-                    <h2 class="col-title">Превью:</h2>
-                    <img srcset="" class="js-img">
+                    <div class="preview">
+                        <h2 class="col-title">Превью:</h2>
+                        <p class="js-up-text"></p>
+                        <p class="js-down-text"></p>
+                        <img src="" class="js-img">
+                    </div>
                 </li>
             </ul>
         </div>

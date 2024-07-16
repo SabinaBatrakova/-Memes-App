@@ -29,21 +29,22 @@ body {
     margin-bottom: 42px;
 }
 
-.text,
-.text-up,
-.text-down {
+.text {
     font-size: 25px;
     line-height: 42.67px;
     margin-bottom: 13px;
 }
 
-.input,
-.input-chose {
+
+.input-chose-mem,
+.text-up,
+.text-down {
     width: 393px;
     height: 54px;
     border-radius: 10px;
     padding-right: 40px;
     box-sizing: border-box;
+    margin-bottom: 30px;
 }
 
 .input-memes {
@@ -53,30 +54,6 @@ body {
     overflow: hidden;
 }
 
-.input-chose {
-    width: 100%;
-    padding-left: 10px;
-}
-
-.input-chose:focus {
-    outline: none;
-}
-
-.btn-default {
-    position: absolute;
-    right: 15px;
-    width: 34px;
-    height: 34px;
-    border: none;
-    background: none;
-    cursor: pointer;
-    align-items: center;
-}
-
-.btn.btn-default {
-    height: 100%;
-}
-
-.btn-default:hover {
-    opacity: 70%;
+.chose-text {
+    margin-top: 20px;
 }
